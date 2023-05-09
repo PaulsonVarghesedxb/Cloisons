@@ -55,6 +55,8 @@ export const Navbarhead = () => {
                     <NavItem>
                         <NavLink href="Resource">
                             Resource                         </NavLink>
+                    </NavItem>
+                    <NavItem>
                         <NavLink href="Contact">
                             Contact                        </NavLink>
                     </NavItem>

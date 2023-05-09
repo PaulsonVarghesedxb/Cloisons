@@ -2,7 +2,9 @@ import React from 'react'
 
 const Indexpage = () => {
   return (
-    <div>Indexpage</div>
+    <div className='banner'>
+
+    </div>
   )
 }
 

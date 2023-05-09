@@ -1,6 +1,8 @@
 .navbar {
   font-weight: 500;
   box-shadow: 0 5px 20px -10px #efe1e1;
+  padding-left: 10% !important;
+  padding-right: 10% !important;
 }
 .navbar .navbar-nav .nav-link {
   color: #000000;
@@ -44,4 +46,11 @@
 }
 .navbar .navbar-nav .nav-item::after {
   transition: all 0.5s;
+}
+.banner {
+  height: calc(100vh - 80px);
+  background-image: url("./images/Catalog.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom-left-radius: 20%;
 }
