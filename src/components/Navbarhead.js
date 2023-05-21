@@ -18,14 +18,17 @@ export const Navbarhead = () => {
     return (
         <Navbar light='true' expand="md" className="">
             <div className="navbar-translate">
-                <NavbarBrand href="/">   <img
+                <NavbarBrand href="/">
+                    {/* <img
                     alt="logo"
                     src="logo.png"
                     style={{
                         height: 60,
                         width: 138
                     }}
-                /></NavbarBrand>
+                /> */}
+                    The Cloisons
+                </NavbarBrand>
             </div>
             <NavbarToggler onClick={toggle} />
 
