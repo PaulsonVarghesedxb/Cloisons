@@ -60,7 +60,7 @@
   background-size: cover;
   height: 356px;
   justify-content: center;
-  align-items: end;
+  align-items: flex-end;
   display: flex;
 }
 .headerAbout {
@@ -131,7 +131,7 @@
   background-size: cover;
   height: 356px;
   justify-content: center;
-  align-items: end;
+  align-items: flex-end;
   display: flex;
 }
 .contactInfodiv {
