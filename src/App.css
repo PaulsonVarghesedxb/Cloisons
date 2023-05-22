@@ -55,7 +55,7 @@
   border-bottom-left-radius: 20%;
 }
 .aboutUs {
-  background-image: url("./images/bgAboutus.png");
+  background-image: url("./images/bgAboutus.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 356px;
@@ -97,6 +97,20 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.about3Img {
+  background-image: url("./images/about3.jpg");
+  border-radius: 70px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about4Img {
+  background-image: url("./images/about4.jpg");
+  border-radius: 70px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .Footetli {
   list-style-type: none;
 }
@@ -126,7 +140,7 @@
 }
 
 .contactUs {
-  background-image: url("./images/bgAboutus.png");
+  background-image: url("./images/bgContactus.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 356px;
@@ -149,6 +163,23 @@
   margin-right: 1rem;
 }
 .lilistCont {
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
   padding-top: 1rem;
+}
+.liaddress {
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+.carddis {
+  margin-left: 3rem !important;
+  margin-bottom: 3rem !important;
+}
+.operaAble {
+  background-image: url("./images/operablewall.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 356px;
+  justify-content: center;
+  align-items: flex-end;
+  display: flex;
 }

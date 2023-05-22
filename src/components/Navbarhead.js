@@ -9,6 +9,10 @@ import {
     NavItem,
     NavLink,
     NavbarText,
+    UncontrolledDropdown,
+    DropdownToggle,
+    DropdownMenu,
+    DropdownItem,
 } from 'reactstrap';
 
 export const Navbarhead = () => {
@@ -45,11 +49,15 @@ export const Navbarhead = () => {
                             About Us
                         </NavLink>
                     </NavItem>
-                    <NavItem>
-                        <NavLink href="Product">
+                    <UncontrolledDropdown nav inNavbar>
+                        <DropdownToggle nav caret>
                             Products
-                        </NavLink>
-                    </NavItem>
+                        </DropdownToggle>
+                        <DropdownMenu right>
+                            <DropdownItem>Glass partitions</DropdownItem>
+                            <DropdownItem href="OperableWall">Opeable Walls</DropdownItem>
+                        </DropdownMenu>
+                    </UncontrolledDropdown>
                     <NavItem>
                         <NavLink href="Gallery">
                             Projects
