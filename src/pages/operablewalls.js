@@ -1,7 +1,14 @@
 import { Card, CardBody, CardGroup, CardImg, CardText, CardTitle, Col, Container, Row } from "reactstrap";
 import solid from "../images/solidwall.jpg"
 import glazed from "../images/galzedmovable.png"
+import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
+
 function Operablewalls() {
+    let navigate = useNavigate();
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
     return (
         <>
             <div className="operaAble"><div className="headerAbout">Operable Wall</div></div>
@@ -20,7 +27,7 @@ function Operablewalls() {
                             <Col md="7" className='p-0' >
                                 <CardGroup>
 
-                                    <Card className="carddis" >
+                                    <Card className="carddis" onClick={() => { navigate('/SolidWall') }} >
                                         <CardImg
                                             alt="Card image cap"
                                             src={solid}
@@ -28,17 +35,17 @@ function Operablewalls() {
                                             width="100%"
                                         />
                                         <CardBody>
-                                            <CardTitle tag="h5">
+                                            <CardTitle className="subHead">
                                                 Solid walls
                                             </CardTitle>
 
                                             <CardText>
-                                                This card has supporting text below as a natural lead-in to additional content.
+                                                Operable Walls set the standard for ease of use, durability, aesthetics and sound control. Available in flexible layout and storage configurations to optimize your interior space division needs, set up times are minimal, allowing your interior spaces to transform with little effort.
                                             </CardText>
 
                                         </CardBody>
                                     </Card>
-                                    <Card className="carddis">
+                                    <Card className="carddis" onClick={() => { navigate('/GlazedWall') }}>
                                         <CardImg
                                             alt="Card image cap"
                                             src={glazed}
@@ -46,12 +53,12 @@ function Operablewalls() {
                                             width="100%"
                                         />
                                         <CardBody>
-                                            <CardTitle tag="h5">
+                                            <CardTitle className="subHead">
                                                 Gazed Movable walls
                                             </CardTitle>
 
                                             <CardText>
-                                                This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.
+                                                The industry’s most comprehensive and full-featured lineup of movable glass wall products. With best-in-class sound control, panel automation, switchable smart glass, multiple layout and configuration options and in nearly unlimited finishes.
                                             </CardText>
 
                                         </CardBody>
@@ -62,8 +69,8 @@ function Operablewalls() {
                         </Row>
 
                     </Col>
-                </Row>
-            </Container>
+                </Row >
+            </Container >
         </>
     );
 }

@@ -55,7 +55,7 @@ export const Navbarhead = () => {
                         </DropdownToggle>
                         <DropdownMenu right>
                             <DropdownItem>Glass partitions</DropdownItem>
-                            <DropdownItem href="OperableWall">Opeable Walls</DropdownItem>
+                            <DropdownItem href="OperableWall">Operable Walls</DropdownItem>
                         </DropdownMenu>
                     </UncontrolledDropdown>
                     <NavItem>
