@@ -7,6 +7,8 @@ import Contact from './pages/contact';
 import Operablewalls from './pages/operablewalls';
 import Solidwalls from './pages/solidwalls';
 import GlazedWalls from './pages/glazedwall';
+import DemountableGlassPartions from './pages/glasspartitions';
+import DemoutableID2 from './pages/demountableID2';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
         <Route path="OperableWall" element={<Operablewalls />} />
         <Route path="SolidWall" element={<Solidwalls />} />
         <Route path="GlazedWall" element={<GlazedWalls />} />
+        <Route path="DemountableGlassPartions" element={<DemountableGlassPartions />} />
+        <Route path="DemoutableID2" element={<DemoutableID2 />} />
       </Route>
     </Routes>
   );

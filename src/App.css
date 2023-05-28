@@ -236,3 +236,32 @@
   font-size: 3rem;
   color: #dd9344;
 }
+.headerGlass {
+  font-family: "DM Serif Display", serif;
+  background-color: white;
+  border-radius: 37px 37px 0px 0px;
+  width: 30%;
+  height: 20%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 1.5rem;
+}
+.partitiontwenty {
+  background-image: url("./images/PARTITION26.jpg");
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.partitionfour {
+  background-image: url("./images/PARTITION40.jpg");
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.partitionhund {
+  background-image: url("./images/PARTITION100.jpg");
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

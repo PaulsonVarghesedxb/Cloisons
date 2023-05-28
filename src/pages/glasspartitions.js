@@ -1,25 +1,25 @@
 import { Card, CardBody, CardGroup, CardImg, CardText, CardTitle, Col, Container, Row } from "reactstrap";
 import solid from "../images/solidwall.jpg"
-import glazed from "../images/galzedmovable.png"
+import doubleGlazed from "../images/DOUBLEGLAZE.jpg"
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 
-function Operablewalls() {
+function DemountableGlassPartions() {
     let navigate = useNavigate();
     useEffect(() => {
         window.scrollTo(0, 0)
     }, [])
     return (
         <>
-            <div className="operaAble"><div className="headerAbout">Operable Wall</div></div>
+            <div className="operaAble"><div className="headerGlass">Demountable Glass Partions</div></div>
             <Container>
                 <Row>
                     <Col md="12" className="justify-content-md-center"  >
                         <Row className='m-5 p-5 '>
                             <Col md="12" className='px-3' >
-                                <p className="justify-content-center align-items-center d-flex text-center subHead">Operable Wall</p>
-                                <p>A movable, interlocking group of panels suspended from an overhead track system that forms a soundproof wall is referred to as a operable wall partition. These movable wall partitions are a cost-effective and flexible option for dividing rooms; they are available in a variety of styles, colours, and finishes to meet all of your specific requirements.</p>
-                                <p> Cloisons Operable Walls from pcts, portugal are designed to divide available space in a variety of environments elegantly and efficiently. From small meeting rooms to large convention centers, operable walls allow you to adapt your space to the activities of the day. If you are looking for divider partition, wall partition services in UAE and Middle East, you can contact us.</p>
+                                <p className="justify-content-center align-items-center d-flex text-center subHead">Demountable Glass Partions</p>
+                                <p>Our wide range of products makes it possible to meet technical and aesthetic requirements of most architectural projects.</p>
+                                <p> With or without joint-covers, edge-to-edge or gap-joint, solid or glazed, our systems, in different thicknesses, are tested in various configurations : tests for acoustics, for demountability,…</p>
                             </Col>
                         </Row>
                         <Row className='mt-0 p-0 justify-content-md-center'>
@@ -36,7 +36,7 @@ function Operablewalls() {
                                         />
                                         <CardBody>
                                             <CardTitle className="subHead">
-                                                Solid walls
+                                                SINGLE GLAZED - ID1
                                             </CardTitle>
 
                                             <CardText>
@@ -45,20 +45,20 @@ function Operablewalls() {
 
                                         </CardBody>
                                     </Card>
-                                    <Card className="carddis" onClick={() => { navigate('/GlazedWall') }}>
+                                    <Card className="carddis" onClick={() => { navigate('/DemoutableID2') }}>
                                         <CardImg
                                             alt="Card image cap"
-                                            src={glazed}
+                                            src={doubleGlazed}
                                             top
                                             width="100%"
                                         />
                                         <CardBody>
                                             <CardTitle className="subHead">
-                                                Gazed Movable walls
+                                                DOUBLE GLAZED - ID2
                                             </CardTitle>
 
                                             <CardText>
-                                                The industry’s most comprehensive and full-featured lineup of movable glass wall products. With best-in-class sound control, panel automation, switchable smart glass, multiple layout and configuration options and in nearly unlimited finishes.
+                                                The reference concept in the field of demountable office partitions.It combines a contemporary design thanks to its fine joint covers with an economic approach of the layout requirements within the scope of most projects.
                                             </CardText>
 
                                         </CardBody>
@@ -75,4 +75,4 @@ function Operablewalls() {
     );
 }
 
-export default Operablewalls;
+export default DemountableGlassPartions;
