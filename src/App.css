@@ -57,7 +57,7 @@
 .aboutUs {
   background-image: url("./images/bgAboutus.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   height: 356px;
   justify-content: center;
   align-items: flex-end;
@@ -142,7 +142,7 @@
 .contactUs {
   background-image: url("./images/bgContactus.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   height: 356px;
   justify-content: center;
   align-items: flex-end;
@@ -181,7 +181,7 @@
 .operaAble {
   background-image: url("./images/operablewall.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   height: 356px;
   justify-content: center;
   align-items: flex-end;
@@ -264,4 +264,67 @@
   height: 300px;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.SingleGlazed6img {
+  background-image: url("./images/singelglazed/singleglazed1.JPEG");
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.SingleGlazedv5img {
+  background-image: url("./images/singelglazed/singleglazed2.JPEG");
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.SingleGlazedv4img {
+  background-image: url("./images/singelglazed/singleglazed3.JPEG");
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.SingleGlazedv3img {
+  background-image: url("./images/singelglazed/signleglazed4.JPEG");
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.SingleGlazedv2img {
+  background-image: url("./images/singelglazed/singleglazed5.JPEG");
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.SingleGlazed1img {
+  background-image: url("./images/singelglazed/singleglazed6.JPEG");
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.singleglazedHead {
+  background-image: url("./images/singelglazed/singleglazed2.JPEG");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 400px;
+  justify-content: center;
+  align-items: flex-end;
+  display: flex;
+}
+.demoutableHead {
+  background-image: url("./images/PARTITION26.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 400px;
+  justify-content: center;
+  align-items: flex-end;
+  display: flex;
+}
+.movableHead {
+  background-image: url("./images/vistaImg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 400px;
+  justify-content: center;
+  align-items: flex-end;
+  display: flex;
 }

@@ -8,7 +8,7 @@ function GlazedWalls() {
     }, [])
     return (
         <>
-            <div className="solidHead"><div className="headerSolid">Movable Walls</div></div>
+            <div className="movableHead"><div className="headerGlass">Galzed Movable Walls</div></div>
             <Container>
                 <Row>
                     <Col md="12" className="justify-content-md-center"  >

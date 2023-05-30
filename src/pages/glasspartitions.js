@@ -1,5 +1,5 @@
 import { Card, CardBody, CardGroup, CardImg, CardText, CardTitle, Col, Container, Row } from "reactstrap";
-import solid from "../images/solidwall.jpg"
+import singleGlaze from "../images/singelglazed/singleglazed7.jpeg"
 import doubleGlazed from "../images/DOUBLEGLAZE.jpg"
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
@@ -27,10 +27,10 @@ function DemountableGlassPartions() {
                             <Col md="7" className='p-0' >
                                 <CardGroup>
 
-                                    <Card className="carddis" onClick={() => { navigate('/SolidWall') }} >
+                                    <Card className="carddis" onClick={() => { navigate('/SingleGlazedID1') }}>
                                         <CardImg
                                             alt="Card image cap"
-                                            src={solid}
+                                            src={singleGlaze}
                                             top
                                             width="100%"
                                         />
@@ -40,7 +40,7 @@ function DemountableGlassPartions() {
                                             </CardTitle>
 
                                             <CardText>
-                                                Operable Walls set the standard for ease of use, durability, aesthetics and sound control. Available in flexible layout and storage configurations to optimize your interior space division needs, set up times are minimal, allowing your interior spaces to transform with little effort.
+                                                ABCD International’s ID 1 Partition is a single edge to edge glazing partition that offers an innovative design and smart solutions for designing office partitions. This partition system was designed to offer versatility, quality, and brightness.
                                             </CardText>
 
                                         </CardBody>

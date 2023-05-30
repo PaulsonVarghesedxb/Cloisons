@@ -8,7 +8,7 @@ function DemoutableID2() {
     }, [])
     return (
         <>
-            <div className="solidHead"><div className="headerGlass">DOUBLE GLAZED - ID2</div></div>
+            <div className="demoutableHead"><div className="headerGlass">DOUBLE GLAZED - ID2</div></div>
             <Container>
                 <Row>
                     <Col md="12" className="justify-content-md-center"  >
@@ -16,9 +16,9 @@ function DemoutableID2() {
                             <Col md="12" className='px-3' >
                                 <Bounce direction={"left"} triggerOnce={true}>
                                     <p className="justify-content-center align-items-center d-flex text-center subHead">DOUBLE GLAZED - ID2</p>
-                                    <p>dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy</p>
-                                    <p>dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy </p>
-                                    <p>dummy dummy dummy dummy dummy dummy dummy</p>
+                                    <p>The ID2 glass partition is aesthetically distinguished by the total absence of structure between the modules.</p>
+                                    <p>This glazed partition is available in single glazing but especially in double glazing edge to edge and offers prestigious solutions and personalizes workspaces. </p>
+                                    <p>In 77 or 103 mm thickness, with 2 tempered or laminated glazing, the acoustic performance of this removable partition is of a very high level. To affirm the luxurious character of this bulkhead, the junctions between the solid and glazed modules are realized edge to edge without a joint cover. Depending on the configuration, this partition can achieve an acoustic performance of up to 48 dB.</p>
                                 </Bounce>
                             </Col>
                         </Row>
