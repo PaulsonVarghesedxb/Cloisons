@@ -265,51 +265,6 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.SingleGlazed6img {
-  background-image: url("./images/singelglazed/singleglazed1.JPEG");
-  height: 300px;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.SingleGlazedv5img {
-  background-image: url("./images/singelglazed/singleglazed2.JPEG");
-  height: 300px;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.SingleGlazedv4img {
-  background-image: url("./images/singelglazed/singleglazed3.JPEG");
-  height: 300px;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.SingleGlazedv3img {
-  background-image: url("./images/singelglazed/signleglazed4.JPEG");
-  height: 300px;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.SingleGlazedv2img {
-  background-image: url("./images/singelglazed/singleglazed5.JPEG");
-  height: 300px;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.SingleGlazed1img {
-  background-image: url("./images/singelglazed/singleglazed6.JPEG");
-  height: 300px;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.singleglazedHead {
-  background-image: url("./images/singelglazed/singleglazed2.JPEG");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  height: 400px;
-  justify-content: center;
-  align-items: flex-end;
-  display: flex;
-}
 .demoutableHead {
   background-image: url("./images/PARTITION26.jpg");
   background-repeat: no-repeat;
@@ -327,4 +282,47 @@
   justify-content: center;
   align-items: flex-end;
   display: flex;
+}
+.singleglazedHead {
+  background-image: url("./images/singelglazed/singleglazed2.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 400px;
+  justify-content: center;
+  align-items: flex-end;
+  display: flex;
+}
+.rowGrid {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.columnGrid {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.columnGrid img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .columnGrid {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .columnGrid {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
