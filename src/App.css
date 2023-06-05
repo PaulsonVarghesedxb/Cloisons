@@ -151,9 +151,12 @@
 .contactInfodiv {
   background-color: #f4f0ec;
   padding: 3%;
-  border-radius: 70px;
   justify-content: center;
   display: flex;
+}
+.mapDiv {
+  border-radius: 70px;
+  height: 100%;
 }
 .iconbg {
   display: inline;
@@ -309,6 +312,15 @@
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
+}
+.whatsicon {
+  background-color: #99959559;
+  padding: 10px;
+  z-index: 5;
+  border-radius: 20px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */

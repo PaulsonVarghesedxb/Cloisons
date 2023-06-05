@@ -23,9 +23,9 @@ function Contact() {
                                 <p className="justify-content-center align-items-center d-flex text-center subHead">We love meeting new perople <br />and helping them.</p>
                             </Col>
                         </Row>
-                        <Row className='mt-0 p-0 justify-content-md-center'>
+                        <Row className='mt-0 mb-5 p-0 justify-content-md-center'>
 
-                            <Col md="6" className='p-0' >
+                            <Col md="5" className='p-0 mr-3' >
                                 <div className="contactInfodiv">
                                     <ul className="Footetli">
                                         <li className="liaddress" >  <div className="iconbg"><BsBuildings size={20} color="#4d4b4b94" className='mb-2' /></div>302M,3rdFloor.<br />
@@ -37,19 +37,18 @@ function Contact() {
                                     </ul>
                                 </div>
                             </Col>
-                        </Row>
-                        <Row className='m-5 p-5 justify-content-md-center '>
-
-                            <Col md="5" id="Map">
-                                <iframe className='' title="Map"
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3604.3111109791403!2d55.45243611459582!3d25.394394629904394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5836c4c66a37%3A0x5875e9e7a1fd51c1!2sHimalaya%20A%2FC%20Systems%20Contracting%20LLC!5e0!3m2!1sen!2sin!4v1677049743537!5m2!1sen!2sin"
-                                    width="100%"
-                                    height="100%"
-                                    // style="border:0;"
-                                    allowfullscreen=""
-                                    loading="lazy"
-                                    referrerpolicy="no-referrer-when-downgrade">
-                                </iframe>
+                            <Col md="6" className='p-0 ' >
+                                <div className="mapDiv">
+                                    <iframe className='' title="Map"
+                                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3608.1433911697522!2d55.380374!3d25.2657614!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5dcac356e5b9%3A0xb4fe5b1e9b9373e7!2sFast%20Business%20Service!5e0!3m2!1sen!2sin!4v1685984397950!5m2!1sen!2sin"
+                                        width="100%"
+                                        height="100%"
+                                        // style="border:0;"
+                                        allowfullscreen=""
+                                        loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade">
+                                    </iframe>
+                                </div>
                             </Col>
                         </Row>
 
