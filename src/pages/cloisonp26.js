@@ -86,16 +86,16 @@ function CloisonP26() {
                             </Col>
                         </Row>
                         <Row className=' justify-content-md-center align-items-center m-5 p-5'>
-                            <Col md="6" >
+                            <Col md="7" >
                                 <style>
                                     {`.custom-tag {
               max-width: 100%;
-              height: 400px;
+              height: 450px;
               background: black;
             }`}
                                 </style>
                                 <Bounce direction={"left"} triggerOnce={true}>
-                                    <Carousel activeIndex={activeIndex} next={next} previous={previous} fade={true}>
+                                    <Carousel activeIndex={activeIndex} next={next} previous={previous} interval={1000}>
                                         <CarouselIndicators
                                             items={items}
                                             activeIndex={activeIndex}
