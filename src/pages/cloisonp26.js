@@ -1,11 +1,9 @@
 import { Button, Carousel, CarouselControl, CarouselIndicators, CarouselItem, Col, Container, Row } from "reactstrap";
-import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import img1 from "../images/ctwentySix/1.jpg"
 import img2 from "../images/ctwentySix/2.jpg"
 import img3 from "../images/ctwentySix/3.jpg"
 import { Bounce } from "react-awesome-reveal";
-import { GoMail } from "react-icons/go";
 import { FiArrowUpCircle } from "react-icons/fi";
 
 
@@ -31,7 +29,6 @@ function CloisonP26() {
         },
 
     ]
-    let navigate = useNavigate();
     useEffect(() => {
         window.scrollTo(0, 0)
     }, [])

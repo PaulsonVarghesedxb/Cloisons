@@ -1,5 +1,4 @@
 import { Button, Carousel, CarouselControl, CarouselIndicators, CarouselItem, Col, Container, Row } from "reactstrap";
-import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import img1 from "../images/chundered/1.jpg"
 import img2 from "../images/chundered/2.jpg"
@@ -30,7 +29,6 @@ function CloisonP100() {
         },
 
     ]
-    let navigate = useNavigate();
     useEffect(() => {
         window.scrollTo(0, 0)
     }, [])

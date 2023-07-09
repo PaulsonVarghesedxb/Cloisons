@@ -1,5 +1,4 @@
 import { Button, Col, Container, Row } from "reactstrap";
-import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 import img1 from "../images/solidwall.jpg"
 import stackA from "../images/alma/StackingSystems_A.jpg"
@@ -15,7 +14,6 @@ import { FiArrowUpCircle } from "react-icons/fi";
 
 function Aqua() {
 
-    let navigate = useNavigate();
     useEffect(() => {
         window.scrollTo(0, 0)
     }, [])
@@ -43,7 +41,7 @@ function Aqua() {
                                         </Bounce>
                                     </Col>
                                     <Col md="6">
-                                        <img src={img1} width={'100%'} height={'100%'} />
+                                        <img src={img1} width={'100%'} height={'100%'} alt="loading.." />
                                     </Col>
                                 </Row>
 
