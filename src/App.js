@@ -19,6 +19,11 @@ import {
 import {
   FaPhoneAlt
 } from "react-icons/fa"
+import CloisonP26 from './pages/cloisonp26';
+import CloisonP40 from './pages/cloisonp40';
+import CloisonP100 from './pages/cloisonp100';
+import Alma from './pages/alma';
+import Aqua from './pages/aqua';
 
 function App() {
   return (
@@ -37,6 +42,11 @@ function App() {
           <Route path="DemountableGlassPartions" element={<DemountableGlassPartions />} />
           <Route path="SingleGlazedID1" element={<SingleGlazed />} />
           <Route path="DemoutableID2" element={<DemoutableID2 />} />
+          <Route path="CloisonP26" element={<CloisonP26 />} />
+          <Route path="CloisonP40" element={<CloisonP40 />} />
+          <Route path="CloisonP100" element={<CloisonP100 />} />
+          <Route path="Alma" element={<Alma />} />
+          <Route path="Aqua" element={<Aqua />} />
         </Route>
       </Routes>
     </>

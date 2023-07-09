@@ -71,7 +71,7 @@ function DemoutableID2() {
                             </Col>
                         </Row>
                         <Row className='mx-5 p-5 pt-0'>
-                            <p className="p-5 justify-content-end d-flex text-right subHead2">CLOISON 100(100) </p>
+                            <p className="p-5 justify-content-end d-flex text-right subHead2">CLOISON 100(P100) </p>
                             <Col md="6" >
                                 <Bounce direction={"left"} triggerOnce={true}>
                                     <p>The 100 Partition® is the answer to your requirements regarding high partitions with major acoustic insulation properties.It combines the elegant design of the 40 Partition® and the stability of a 100mm-thick partition with excellent mechanical properties.</p>

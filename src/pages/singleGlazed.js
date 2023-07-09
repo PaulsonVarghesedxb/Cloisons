@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { Bounce } from "react-awesome-reveal";
-import { Col, Container, Row } from "reactstrap";
+import { Button, Col, Container, Row } from "reactstrap";
 import singleGlaze1 from "../images/singelglazed/singleglazed1.jpeg"
 import singleGlaze2 from "../images/singelglazed/singleglazed2.jpeg"
 import singleGlaze3 from "../images/singelglazed/singleglazed3.jpeg"
@@ -25,8 +25,26 @@ function SingleGlazed() {
                             <Col md="12" className='px-3' >
                                 <Bounce direction={"left"} triggerOnce={true}>
                                     <p className="justify-content-center align-items-center d-flex text-center subHead">SINGLE GLAZED - ID1</p>
-                                    <p>ABCD International’s ID 1 Partition is a single edge to edge glazing partition that offers an innovative design and smart solutions for designing office partitions. This partition system was designed to offer versatility, quality, and brightness.</p>
-                                    <p>The partition deceives both light and transparency, and reflects the latest trends, thanks to the minimization of its runners and micro-profiles between the glazed panels, as well as our special assembly processes </p>
+                                    <p>The ID 1 partition with single edge to edge glazing offers an innovative design and smart solutions for designing the layout of office environments. This partition system has been designed to offer flexibility, quality and brightness.</p>
+                                    <p>With the minimisation of its runners and micro-profiles between the glazed panels or with our special assembly processes, the ID 1 partition deceives both light and transparency, and reflects the latest trends. </p>
+                                    <p>Depending on the heights, you can use it with tempered glazing, 10 mm or 12 mm-thick flat smooth joints. It has been designed to convey a smart, state-of-the-art brand image.</p>
+
+                                </Bounce>
+                                <Bounce direction={"right"} triggerOnce={true}>
+                                    <div className=" justify-content-center text-center">
+                                        <ul >
+                                            <li className="licss">
+                                                SINGLE EDGE TO EDGE GLAZING</li>
+                                            <li className="licss">FLEXIBILITE AND QUALITY</li>
+                                            <li className="licss">INNOVATIVE DESIGN</li>
+
+                                        </ul>
+                                    </div>
+                                </Bounce>
+                                <Bounce direction={"left"} triggerOnce={true}>
+                                    <div className=" justify-content-center text-center">
+                                        <Button className="btdw p-2">DOWNLOAD</Button>
+                                    </div>
                                 </Bounce>
                             </Col>
                         </Row>

@@ -19,7 +19,7 @@
   left: 0;
   right: 0;
   margin: auto;
-  background-color: #cda274;
+  background-color: #42a5f5;
   width: 0%;
   content: "";
   height: 3px;
@@ -237,7 +237,7 @@
 .subHead2 {
   font-family: "DM Serif Display", serif;
   font-size: 3rem;
-  color: #dd9344;
+  color: #2196f3;
 }
 .headerGlass {
   font-family: "DM Serif Display", serif;
@@ -337,4 +337,44 @@
     flex: 100%;
     max-width: 100%;
   }
+}
+
+.rmhrefInline {
+  display: inline !important;
+}
+.dropCol {
+  background-color: white !important;
+  border: none !important;
+}
+.drpbr {
+  border-radius: 0px !important;
+}
+.dropdown-item:hover {
+  background-color: #2196f3 !important;
+  color: white !important;
+}
+.licss {
+  display: inline-block;
+  margin-left: 3%;
+  font-size: 1.4rem;
+  color: #42a5f5;
+}
+.btdw {
+  background-color: #2196f3 !important;
+  border-radius: 0px !important;
+  border: none !important;
+}
+.btdw:hover {
+  background-color: #42a5f5 !important;
+  border-radius: 0px !important;
+  border: none !important;
+}
+.nolistdot {
+  list-style-type: none;
+}
+.licsslist {
+  font-family: "DM Serif Display", serif;
+  margin-left: 3%;
+  font-size: 1.2rem;
+  margin-top: 3%;
 }
