@@ -34,7 +34,7 @@ function Contact() {
                                         <iframe className='' title="Map"
                                             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3608.1433911697522!2d55.380374!3d25.2657614!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5dcac356e5b9%3A0xb4fe5b1e9b9373e7!2sFast%20Business%20Service!5e0!3m2!1sen!2sin!4v1685984397950!5m2!1sen!2sin"
                                             width="100%"
-                                            height="100%"
+                                            height="300"
                                             // style="border:0;"
                                             allowfullscreen=""
                                             loading="lazy"
@@ -47,7 +47,7 @@ function Contact() {
                                         </CardTitle >
                                         <CardText className="justify-content-center d-flex">
                                             <ul className="Footetli">
-                                                <li className="liaddress" > 302M,3rdFloor.<br />
+                                                <li className="liaddress" > 302M, 3rdFloor<br />
                                                     <div className="py-1"> Sheikha Mhara Building</div>
                                                     <div className="py-1"> Dubai, United Arab Emirates</div></li>
 
@@ -67,9 +67,9 @@ function Contact() {
 
                                     <div className="mapDiv">
                                         <iframe className='' title="Map"
-                                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3608.1433911697522!2d55.380374!3d25.2657614!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5dcac356e5b9%3A0xb4fe5b1e9b9373e7!2sFast%20Business%20Service!5e0!3m2!1sen!2sin!4v1685984397950!5m2!1sen!2sin"
+                                            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3609.197656857646!2d55.55448711501016!3d25.230266783880783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjXCsDEzJzQ5LjAiTiA1NcKwMzMnMjQuMCJF!5e0!3m2!1sen!2sae!4v1688916842707!5m2!1sen!2sae"
                                             width="100%"
-                                            height="100%"
+                                            height="300"
                                             // style="border:0;"
                                             allowfullscreen=""
                                             loading="lazy"
