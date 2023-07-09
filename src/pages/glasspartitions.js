@@ -11,7 +11,7 @@ function DemountableGlassPartions() {
     }, [])
     return (
         <>
-            <div className="operaAble"><div className="headerGlass">Demountable Glass Partions</div></div>
+            <div className="demountable"><div className="headerGlass">Demountable Glass Partions</div></div>
             <Container>
                 <Row>
                     <Col md="12" className="justify-content-md-center"  >

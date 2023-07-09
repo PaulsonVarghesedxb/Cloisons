@@ -181,6 +181,15 @@
 .carddis:hover {
   background-color: whitesmoke;
 }
+.demountable {
+  background-image: url("./images/demoutableBG.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 356px;
+  justify-content: center;
+  align-items: flex-end;
+  display: flex;
+}
 .operaAble {
   background-image: url("./images/operablewall.jpg");
   background-repeat: no-repeat;
