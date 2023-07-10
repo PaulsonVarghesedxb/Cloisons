@@ -1,6 +1,6 @@
 import { Button, Col, Container, Row } from "reactstrap";
 import { useEffect } from "react";
-import img1 from "../images/AquaMain.jpg"
+import img1 from "../images/waveImg.jpg"
 import stackA from "../images/wave/1.jpg"
 import stackB from "../images/wave/2.jpg"
 import stackC from "../images/wave/3.jpg"
