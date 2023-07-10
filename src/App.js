@@ -24,6 +24,7 @@ import CloisonP40 from './pages/cloisonp40';
 import CloisonP100 from './pages/cloisonp100';
 import Alma from './pages/alma';
 import Aqua from './pages/aqua';
+import Wave from './pages/wave';
 
 function App() {
   return (
@@ -47,6 +48,7 @@ function App() {
           <Route path="CloisonP100" element={<CloisonP100 />} />
           <Route path="Alma" element={<Alma />} />
           <Route path="Aqua" element={<Aqua />} />
+          <Route path="Wave" element={<Wave />} />
         </Route>
       </Routes>
     </>

@@ -111,7 +111,7 @@ export const Navbarhead = () => {
                                     <DropdownItem href="Aqua">
                                         Aqua Walls
                                     </DropdownItem>
-                                    <DropdownItem>
+                                    <DropdownItem href="Wave">
                                         Wave Walls
                                     </DropdownItem>
 
