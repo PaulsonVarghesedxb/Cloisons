@@ -6,6 +6,9 @@ import img3 from "../images/ctwentySix/3.jpg"
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Bounce } from 'react-awesome-reveal';
+import { GoMail } from 'react-icons/go';
+import { BsTelephone } from 'react-icons/bs';
+import { IoLogoWhatsapp } from 'react-icons/io';
 
 const Indexpage = () => {
   const items = [
@@ -156,9 +159,26 @@ const Indexpage = () => {
 
           </Col></Row>
         <Row>
-          <Col md="12 " className="justify-content-md-center"  >
+          <Col md="12 " className="justify-content-md-center m-3 p-3"  >
             <div>
-              <p className="justify-content-center align-items-center d-flex text-center subHead">Connect with Us</p>
+              <p className="justify-content-center align-items-center d-flex text-center subHead p-3">Connect with Us</p>
+              <Row>
+                <Col className="justify-content-center align-items-center d-flex text-center">
+                  <div className='borderIco justify-content-center align-items-center d-flex text-center'>
+                    <GoMail size={60} className="connectIco" />
+                  </div>
+                </Col>
+                <Col className="justify-content-center align-items-center d-flex text-center">
+                  <div className='borderIco justify-content-center align-items-center d-flex text-center'>
+                    <BsTelephone size={60} className="connectIco" />
+                  </div>
+                </Col >
+                <Col className="justify-content-center align-items-center d-flex text-center">
+                  <div className='borderIco justify-content-center align-items-center d-flex text-center'>
+                    <IoLogoWhatsapp size={60} className="connectIco" />
+                  </div>
+                </Col>
+              </Row>
             </div>
 
           </Col></Row>

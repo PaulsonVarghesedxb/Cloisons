@@ -411,7 +411,6 @@
   align-items: center;
   color: white;
   display: flex;
-  backdrop-filter: brightness(60%);
 }
 .productDiv:hover {
   color: #4da8f3;
@@ -437,4 +436,13 @@
 }
 .serviceBg > a {
   text-decoration: none;
+}
+.connectIco {
+  color: #4da8f3;
+}
+.borderIco {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  background-color: whitesmoke;
 }
