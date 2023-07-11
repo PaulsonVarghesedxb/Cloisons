@@ -5,6 +5,7 @@ import img2 from "../images/ctwentySix/2.jpg"
 import img3 from "../images/ctwentySix/3.jpg"
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { Bounce } from 'react-awesome-reveal';
 
 const Indexpage = () => {
   const items = [
@@ -28,7 +29,10 @@ const Indexpage = () => {
     },
   ]
   useEffect(() => {
-    window.scrollTo(0, 0)
+    window.scrollTo(0, 0);
+    return () => {
+      window.scrollTo(0, 0);
+    };
   }, [])
   const [activeIndex, setActiveIndex] = useState(0);
   const [animating, setAnimating] = useState(false);
@@ -108,11 +112,44 @@ const Indexpage = () => {
             <div>
               <p className="justify-content-center align-items-center d-flex text-center subHead">Our Products</p>
               <Row>
-                <Col md="6" style={{ backgroundImage: `url(Services/serv1.jpg)` }}>
-                  <Link to="Product"><div className="filterBg ">Project Design</div></Link>
+                <Col md="6" className='p-3'>
+                  <div className="serviceBg " style={{ backgroundImage: `url(products/ID1.jpg)` }}>
+                    <Link to="Product"> <Bounce direction={"left"} triggerOnce={true}><div className="productDiv">ID 1</div></Bounce></Link>
+                  </div>
                 </Col>
-                <Col md="6" style={{ backgroundImage: img1 }}>
-                  <Link to="Product"><div className="filterBg ">Project Design</div></Link>
+                <Col md="6" className='p-3'>
+                  <div className="serviceBg " style={{ backgroundImage: `url(products/26.jpg)` }}>
+                    <Link to="CloisonP26"><Bounce direction={"right"} triggerOnce={true}><div className="productDiv ">CLOISON 26</div></Bounce></Link>
+                  </div>
+                </Col>
+              </Row>
+              <Row>
+                <Col md="6" className='p-3'>
+                  <div className="serviceBg " style={{ backgroundImage: `url(products/40.jpg)` }}>
+                    <Link to="CloisonP40"><Bounce direction={"left"} triggerOnce={true}><div className="productDiv">CLOISON 40</div></Bounce></Link>
+                  </div>
+                </Col>
+                <Col md="6" className='p-3'>
+                  <div className="serviceBg " style={{ backgroundImage: `url(products/100.jpg)` }}>
+                    <Link to="CloisonP100"><Bounce direction={"right"} triggerOnce={true}><div className="productDiv ">CLOISON 100</div></Bounce></Link>
+                  </div>
+                </Col>
+              </Row>
+              <Row>
+                <Col className='p-3'>
+                  <div className="serviceBg " style={{ backgroundImage: `url(products/Alma1.jpg)` }}>
+                    <Link to="Alma"><Bounce direction={"left"} triggerOnce={true}><div className="productDiv">ALMA</div></Bounce></Link>
+                  </div>
+                </Col>
+                <Col className='p-3'>
+                  <div className="serviceBg " style={{ backgroundImage: `url(products/Aquaimg.jpg)` }}>
+                    <Link to="Aqua"><Bounce direction={"left"} triggerOnce={true}><div className="productDiv ">AQUA</div></Bounce></Link>
+                  </div>
+                </Col>
+                <Col className='p-3'>
+                  <div className="serviceBg " style={{ backgroundImage: `url(products/waveimg.jpg)` }}>
+                    <Link to="Wave"><Bounce direction={"right"} triggerOnce={true}><div className="productDiv ">WAVE</div></Bounce></Link>
+                  </div>
                 </Col>
               </Row>
             </div>
