@@ -1,13 +1,13 @@
 import { Button, Carousel, CarouselControl, CarouselIndicators, CarouselItem, Col, Container, Row } from "reactstrap";
 import { useEffect, useState } from "react";
-import img1 from "../images/chundered/1.jpg"
-import img2 from "../images/chundered/2.jpg"
-import img3 from "../images/chundered/3.jpg"
+import img1 from "../../images/ctwentySix/1.jpg"
+import img2 from "../../images/ctwentySix/2.jpg"
+import img3 from "../../images/ctwentySix/3.jpg"
 import { Bounce } from "react-awesome-reveal";
 import { FiArrowUpCircle } from "react-icons/fi";
 
 
-function CloisonP100() {
+function CloisonP26() {
     const items = [
         {
             altText: 'Slide 1',
@@ -78,10 +78,10 @@ function CloisonP100() {
                         <Row className='m-5 p-5 '>
                             <Col md="12" className='px-3' >
                                 <Bounce direction={"left"} triggerOnce={true}>
-                                    <p className="justify-content-center align-items-center d-flex text-center subHead">Double Glazed - Cloison 100(P100)</p>
-                                    <p>The 100 Partition® is the answer to your requirements regarding high partitions with major acoustic insulation properties. It combines the elegant design of the 40 Partition® and the stability of a 100mm-thick partition with excellent mechanical properties.</p>
-                                    <p>Direct clipping of the joint covers enables extremely simple implementation and assembly of this partition entirely made of aluminium thanks to an important series of adjustments and a special bracket.</p>
-                                    <p>It enables the creation of all types of partition modules up to 4.50m or more depending on the configuration of the partition and accepts all types of solid/glass filling and doors.</p>
+                                    <p className="justify-content-center align-items-center d-flex text-center subHead">Double Glazed - Cloison 26(P26)</p>
+                                    <p>The reference concept in the field of demountable office partitions.It combines a contemporary design thanks to its fine joint covers with an economic approach of the layout requirements within the scope of most projects.</p>
+                                    <p> Direct clipping of the joint covers enables an extremely simple implementation and assembly of these partitions, which are entirely made of aluminium.</p>
+                                    <p> It is possible to create all types of partition modules, solid/glass filling and doors. Beautiful designs, modularity and economy combine to accommodate office environment.</p>
                                 </Bounce>
                             </Col>
                         </Row>
@@ -95,7 +95,7 @@ function CloisonP100() {
             }`}
                                 </style>
                                 <Bounce direction={"left"} triggerOnce={true}>
-                                    <Carousel activeIndex={activeIndex} next={next} previous={previous} fade={true} interval={1000}>
+                                    <Carousel activeIndex={activeIndex} next={next} previous={previous} interval={1000}>
                                         <CarouselIndicators
                                             items={items}
                                             activeIndex={activeIndex}
@@ -118,9 +118,9 @@ function CloisonP100() {
                             <Col>
                                 <Bounce direction={"right"} triggerOnce={true}>
                                     <ul className="nolistdot">
-                                        <li className="licsslist"><FiArrowUpCircle size={20} color="#2196F3" className="mb-1 mx-2" />High partitions</li>
-                                        <li className="licsslist"><FiArrowUpCircle size={20} color="#2196F3" className="mb-1 mx-2" />Elegant design ans stabiity</li>
-                                        <li className="licsslist"><FiArrowUpCircle size={20} color="#2196F3" className="mb-1 mx-2" />Extremely simple implementation ans assembly</li>
+                                        <li className="licsslist"><FiArrowUpCircle size={20} color="#2196F3" className="mb-1 mx-2" />The reference concept</li>
+                                        <li className="licsslist"><FiArrowUpCircle size={20} color="#2196F3" className="mb-1 mx-2" />Contemporary design</li>
+                                        <li className="licsslist"><FiArrowUpCircle size={20} color="#2196F3" className="mb-1 mx-2" />Economic approach</li>
                                     </ul>
                                 </Bounce>
                                 <Bounce direction={"right"} triggerOnce={true}>
@@ -137,4 +137,4 @@ function CloisonP100() {
     );
 }
 
-export default CloisonP100;
+export default CloisonP26;

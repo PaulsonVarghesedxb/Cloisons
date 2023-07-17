@@ -1,3 +1,6 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
 .navbar {
   font-weight: 500;
   box-shadow: 0 5px 20px -10px #efe1e1;
@@ -64,7 +67,7 @@
   display: flex;
 }
 .headerAbout {
-  font-family: "DM Serif Display", serif;
+  font-family: "Poppins", sans-serif;
   background-color: white;
   border-radius: 37px 37px 0px 0px;
   width: 15%;
@@ -75,7 +78,7 @@
   font-size: 1.5rem;
 }
 .subHead {
-  font-family: "DM Serif Display", serif;
+  font-family: "Poppins", serif;
   font-size: 2rem;
 }
 .para {
@@ -115,7 +118,7 @@
   list-style-type: none;
 }
 .lihead {
-  font-family: "DM Serif Display", serif;
+  font-family: "Poppins", serif;
 }
 .lilist {
   font-family: "Jost", sans-serif;
@@ -200,7 +203,7 @@
   display: flex;
 }
 .headerSolid {
-  font-family: "DM Serif Display", serif;
+  font-family: "Poppins", serif;
   background-color: white;
   border-radius: 37px 37px 0px 0px;
   width: 15%;
@@ -244,12 +247,12 @@
   background-size: cover;
 }
 .subHead2 {
-  font-family: "DM Serif Display", serif;
+  font-family: "Poppins", serif;
   font-size: 3rem;
   color: #2196f3;
 }
 .headerGlass {
-  font-family: "DM Serif Display", serif;
+  font-family: "Poppins", serif;
   background-color: white;
   border-radius: 37px 37px 0px 0px;
   width: 30%;
@@ -382,7 +385,7 @@
   list-style-type: none;
 }
 .licsslist {
-  font-family: "DM Serif Display", serif;
+  font-family: "Poppins", serif;
   margin-left: 3%;
   font-size: 1.2rem;
   margin-top: 3%;

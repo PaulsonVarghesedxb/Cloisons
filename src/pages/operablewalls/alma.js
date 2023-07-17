@@ -1,18 +1,18 @@
 import { Button, Col, Container, Row } from "reactstrap";
 import { useEffect } from "react";
-import img1 from "../images/AquaMain.jpg"
-import stackA from "../images/alma/StackingSystems_A.jpg"
-import stackB from "../images/alma/StackingSystems_B.jpg"
-import stackC from "../images/alma/StackingSystems_C.jpg"
-import stackD from "../images/alma/StackingSystems_D.jpg"
-import stackE from "../images/alma/StackingSystems_E.jpg"
-import stackF from "../images/alma/StackingSystems_F-2.jpg"
-import stackG from "../images/alma/StackingSystems_G.jpg"
+import img1 from "../../images/solidwall.jpg"
+import stackA from "../../images/alma/StackingSystems_A.jpg"
+import stackB from "../../images/alma/StackingSystems_B.jpg"
+import stackC from "../../images/alma/StackingSystems_C.jpg"
+import stackD from "../../images/alma/StackingSystems_D.jpg"
+import stackE from "../../images/alma/StackingSystems_E.jpg"
+import stackF from "../../images/alma/StackingSystems_F-2.jpg"
+import stackG from "../../images/alma/StackingSystems_G.jpg"
 import { Bounce } from "react-awesome-reveal";
 import { FiArrowUpCircle } from "react-icons/fi";
 
 
-function Aqua() {
+function Alma() {
 
     useEffect(() => {
         window.scrollTo(0, 0)
@@ -28,15 +28,15 @@ function Aqua() {
                         <Row className='m-5 p-5 '>
                             <Col md="12" className='px-3' >
 
-                                <p className="justify-content-center align-items-center d-flex text-center subHead2">Aqua Walls</p>
+                                <p className="justify-content-center align-items-center d-flex text-center subHead2">Alma Walls</p>
                                 <Row>
                                     <Col md="5">
                                         <Bounce direction={"right"} triggerOnce={true}>
                                             <ul className="nolistdot">
-                                                <li className="licsslistOper"><FiArrowUpCircle size={20} color="#2196F3" className="mb-1 mx-2" />Sound insulation: up to 49dB as standard - Double-glazed walls (Aqua)</li>
+                                                <li className="licsslistOper"><FiArrowUpCircle size={20} color="#2196F3" className="mb-1 mx-2" />Sound insulation: up to 54dB as standard - Solid walls (Alma)</li>
                                                 <li className="licsslistOper"><FiArrowUpCircle size={20} color="#2196F3" className="mb-1 mx-2" />Fire Rating: EI2.30 (laboratory certified)</li>
                                                 <li className="licsslistOper"><FiArrowUpCircle size={20} color="#2196F3" className="mb-1 mx-2" />Fire classification: EN13501-1 B-s2, d0 (laboratory certified)</li>
-                                                <li className="licsslistOper"><FiArrowUpCircle size={20} color="#2196F3" className="mb-1 mx-2" /> Unlimited metal coatings: including intumescent ink, galvanizing, anodizing, powder coating.</li>
+                                                <li className="licsslistOper"><FiArrowUpCircle size={20} color="#2196F3" className="mb-1 mx-2" />Unlimited metal coatings: including intumescent ink, galvanizing, anodizing, powder coating.</li>
                                             </ul>
                                         </Bounce>
                                     </Col>
@@ -86,4 +86,4 @@ function Aqua() {
     );
 }
 
-export default Aqua;
+export default Alma;

@@ -1,13 +1,14 @@
 import { Button, Carousel, CarouselControl, CarouselIndicators, CarouselItem, Col, Container, Row } from "reactstrap";
 import { useEffect, useState } from "react";
-import img1 from "../images/ctwentySix/1.jpg"
-import img2 from "../images/ctwentySix/2.jpg"
-import img3 from "../images/ctwentySix/3.jpg"
+import img1 from "../../images/cfourty/1.jpg";
+import img2 from "../../images/cfourty/2.jpg";
+import img3 from "../../images/cfourty/3.jpg";
+import img4 from "../../images/cfourty/4.jpg";
 import { Bounce } from "react-awesome-reveal";
 import { FiArrowUpCircle } from "react-icons/fi";
 
 
-function CloisonP26() {
+function CloisonP40() {
     const items = [
         {
             altText: 'Slide 1',
@@ -26,6 +27,12 @@ function CloisonP26() {
             caption: 'Slide 3',
             key: 3,
             src: img3
+        },
+        {
+            altText: 'Slide 4',
+            caption: 'Slide 4',
+            key: 4,
+            src: img4
         },
 
     ]
@@ -78,10 +85,10 @@ function CloisonP26() {
                         <Row className='m-5 p-5 '>
                             <Col md="12" className='px-3' >
                                 <Bounce direction={"left"} triggerOnce={true}>
-                                    <p className="justify-content-center align-items-center d-flex text-center subHead">Double Glazed - Cloison 26(P26)</p>
-                                    <p>The reference concept in the field of demountable office partitions.It combines a contemporary design thanks to its fine joint covers with an economic approach of the layout requirements within the scope of most projects.</p>
-                                    <p> Direct clipping of the joint covers enables an extremely simple implementation and assembly of these partitions, which are entirely made of aluminium.</p>
-                                    <p> It is possible to create all types of partition modules, solid/glass filling and doors. Beautiful designs, modularity and economy combine to accommodate office environment.</p>
+                                    <p className="justify-content-center align-items-center d-flex text-center subHead">Double Glazed - Cloison 40(P40)</p>
+                                    <p>The Partition range is the reference concept in the field of demountable office partitions. It combines an elegant design with proven flexibility, and therefore easier installation.</p>
+                                    <p>Direct clipping of the joint covers enables an extremely simple implementation and assembly of these partitions, which are entirely made of aluminium, thanks to an important series of adjustments. It enables the creation of all types of partition modules and accepts all types of solid/glass filling and doors.</p>
+                                    <p>It ensures a level of functionality required to meet to the requirements of each specific organisation and opens a human-scale working environment.</p>
                                 </Bounce>
                             </Col>
                         </Row>
@@ -95,7 +102,7 @@ function CloisonP26() {
             }`}
                                 </style>
                                 <Bounce direction={"left"} triggerOnce={true}>
-                                    <Carousel activeIndex={activeIndex} next={next} previous={previous} interval={1000}>
+                                    <Carousel activeIndex={activeIndex} next={next} previous={previous} fade={true} interval={1000}>
                                         <CarouselIndicators
                                             items={items}
                                             activeIndex={activeIndex}
@@ -116,14 +123,13 @@ function CloisonP26() {
                                 </Bounce>
                             </Col>
                             <Col>
-                                <Bounce direction={"right"} triggerOnce={true}>
+                                <Bounce direction={"Right"} triggerOnce={true}>
                                     <ul className="nolistdot">
-                                        <li className="licsslist"><FiArrowUpCircle size={20} color="#2196F3" className="mb-1 mx-2" />The reference concept</li>
-                                        <li className="licsslist"><FiArrowUpCircle size={20} color="#2196F3" className="mb-1 mx-2" />Contemporary design</li>
-                                        <li className="licsslist"><FiArrowUpCircle size={20} color="#2196F3" className="mb-1 mx-2" />Economic approach</li>
+                                        <li className="licsslist"><FiArrowUpCircle size={20} color="#2196F3" className="mb-1 mx-2" />Easier installation</li>
+                                        <li className="licsslist"><FiArrowUpCircle size={20} color="#2196F3" className="mb-1 mx-2" />Extremely simple assembly</li>
                                     </ul>
                                 </Bounce>
-                                <Bounce direction={"right"} triggerOnce={true}>
+                                <Bounce direction={"Right"} triggerOnce={true}>
                                     <div className="m-5">
                                         <Button className="btdw p-2">Download</Button>
                                     </div>
@@ -137,4 +143,4 @@ function CloisonP26() {
     );
 }
 
-export default CloisonP26;
+export default CloisonP40;

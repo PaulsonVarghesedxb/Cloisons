@@ -5,7 +5,7 @@ import Indexpage from './pages/Indexpage';
 import About from './pages/About';
 import Contact from './pages/contact';
 import Operablewalls from './pages/operablewalls';
-import Solidwalls from './pages/solidwalls';
+import Solidwalls from './pages/operablewalls/solidwalls';
 import GlazedWalls from './pages/glazedwall';
 import DemountableGlassPartions from './pages/glasspartitions';
 import DemoutableID2 from './pages/demountableID2';
@@ -19,12 +19,12 @@ import {
 import {
   FaPhoneAlt
 } from "react-icons/fa"
-import CloisonP26 from './pages/cloisonp26';
-import CloisonP40 from './pages/cloisonp40';
-import CloisonP100 from './pages/cloisonp100';
-import Alma from './pages/alma';
-import Aqua from './pages/aqua';
-import Wave from './pages/wave';
+import CloisonP26 from './pages/glasspartition/cloisonp26';
+import CloisonP40 from './pages/glasspartition/cloisonp40';
+import CloisonP100 from './pages/glasspartition/cloisonp100';
+import Alma from './pages/operablewalls/alma';
+import Aqua from './pages/operablewalls/aqua';
+import Wave from './pages/operablewalls/wave';
 
 function App() {
   return (
