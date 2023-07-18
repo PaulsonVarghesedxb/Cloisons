@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
 import { Carousel, CarouselControl, CarouselIndicators, CarouselItem, Col, Container, Row } from "reactstrap";
 import img1 from "../images/ctwentySix/1.jpg"
-import img2 from "../images/ctwentySix/2.jpg"
-import img3 from "../images/ctwentySix/3.jpg"
+import img2 from "../images/AquaMain.jpg"
+import img3 from "../images/waveImg.jpg"
+import img4 from "../images/chundered/2.jpg"
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Bounce } from 'react-awesome-reveal';
@@ -29,6 +30,12 @@ const Indexpage = () => {
       caption: 'Slide 3',
       key: 3,
       src: img3
+    },
+    {
+      altText: 'Slide 3',
+      caption: 'Slide 3',
+      key: 3,
+      src: img4
     },
   ]
   useEffect(() => {
@@ -117,7 +124,7 @@ const Indexpage = () => {
               <Row>
                 <Col md="6" className='p-3'>
                   <div className="serviceBg " style={{ backgroundImage: `url(products/ID1.jpg)` }}>
-                    <Link to="Product"> <Bounce direction={"left"} triggerOnce={true}><div className="productDiv">ID 1</div></Bounce></Link>
+                    <Link to="SingleGlazedID1"> <Bounce direction={"left"} triggerOnce={true}><div className="productDiv">ID 1</div></Bounce></Link>
                   </div>
                 </Col>
                 <Col md="6" className='p-3'>

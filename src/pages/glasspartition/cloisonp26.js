@@ -125,7 +125,7 @@ function CloisonP26() {
                                 </Bounce>
                                 <Bounce direction={"right"} triggerOnce={true}>
                                     <div className="m-5">
-                                        <Button className="btdw p-2">Download</Button>
+                                        <Button className="btdw p-2" onClick={() => { window.open("https://drive.google.com/file/d/14iqauzmjy0FwKK4OXDi-jVoFP-GHepGQ/view?usp=sharing", '_blank') }}>Download</Button>
                                     </div>
                                 </Bounce>
                             </Col>

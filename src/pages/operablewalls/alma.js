@@ -75,7 +75,7 @@ function Alma() {
 
                             <Bounce direction={"right"} triggerOnce={true}>
                                 <div className="m-5">
-                                    <Button className="btdw p-2">Download Catalouge</Button>
+                                    <Button className="btdw p-2" onClick={() => { window.open("https://drive.google.com/file/d/1rDkf3N7CSKovPXGr3W17yEpXafQc_oUH/view?usp=sharing", '_blank') }}>Download Catalouge</Button>
                                 </div>
                             </Bounce>
                         </Row>
