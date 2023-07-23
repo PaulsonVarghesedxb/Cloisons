@@ -26,7 +26,7 @@ function About() {
 
               <Col md="6" className='p-0 ' >
                 <Slide triggerOnce={true}>
-                  <div className="about2Img"></div>
+                  <div className="about4Img"></div>
                 </Slide>
               </Col>
               <Col md="6" className='px-3' >
@@ -53,7 +53,8 @@ function About() {
 
               <Col md="6" className='p-0' >
                 <Slide triggerOnce={true} >
-                  <div className="about4Img"></div>
+                  <div className="about2Img"></div>
+
                 </Slide>
               </Col>
               <Col md="6" className='px-3' >

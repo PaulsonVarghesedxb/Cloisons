@@ -94,7 +94,7 @@ body {
   background-size: cover;
 }
 .about2Img {
-  background-image: url("./images/about2.jpg");
+  background-image: url("./images/ctwentySix/3.jpg");
   border-radius: 70px;
   height: 300px;
   background-repeat: no-repeat;
@@ -448,4 +448,8 @@ body {
   height: 150px;
   width: 150px;
   background-color: whitesmoke;
+}
+.navcl {
+  background-color: #f0eded;
+  margin-bottom: 10px;
 }

@@ -33,17 +33,17 @@ export const Navbarhead = () => {
     const onMouseEnterSub2 = () => { setdropdownOpenSub2(true); setdropdownOpenSub(false) }
     const onMouseLeaveSub2 = () => setdropdownOpenSub2(false);
     return (
-        <Navbar light='true' expand="md" className="">
+        <Navbar light='true' expand="md" className="navcl py-0">
             <div className="navbar-translate">
                 <NavbarBrand href="/">
-                    <img
+                    {/* <img
                         alt="logo"
                         src="logo.png"
                         style={{
                             height: 60,
                             width: 138
                         }}
-                    />
+                    /> */}
                     {/* The Cloisons */}
                 </NavbarBrand>
             </div>
@@ -53,7 +53,7 @@ export const Navbarhead = () => {
                 <Nav className="me-auto" navbar>
 
                 </Nav>
-                <NavbarText>         <Nav className="me-auto" navbar>
+                <NavbarText className='p-0'>         <Nav className="me-auto" navbar>
                     <NavItem>
                         <NavLink href="/">Home</NavLink>
                     </NavItem>

@@ -95,7 +95,7 @@ function CloisonP26() {
             }`}
                                 </style>
                                 <Bounce direction={"left"} triggerOnce={true}>
-                                    <Carousel activeIndex={activeIndex} next={next} previous={previous} interval={1000}>
+                                    <Carousel activeIndex={activeIndex} next={next} previous={previous} interval={4000}>
                                         <CarouselIndicators
                                             items={items}
                                             activeIndex={activeIndex}

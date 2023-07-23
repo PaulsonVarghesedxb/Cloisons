@@ -95,7 +95,7 @@ const Indexpage = () => {
               background: black;
             }`}
             </style>
-            <Carousel activeIndex={activeIndex} next={next} previous={previous} fade={true} interval={1000}>
+            <Carousel activeIndex={activeIndex} next={next} previous={previous} fade={true} interval={4000}>
               <CarouselIndicators
                 items={items}
                 activeIndex={activeIndex}
@@ -121,6 +121,7 @@ const Indexpage = () => {
           <Col md="12 " className="justify-content-md-center mt-5 mb-5"  >
             <div>
               <p className="justify-content-center align-items-center d-flex text-center subHead">Our Products</p>
+              <p className="d-flex text-left subHead p-3">Glass Partitions</p>
               <Row>
                 <Col md="6" className='p-3'>
                   <div className="serviceBg " style={{ backgroundImage: `url(products/ID1.jpg)` }}>
@@ -145,6 +146,7 @@ const Indexpage = () => {
                   </div>
                 </Col>
               </Row>
+              <p className="d-flex text-left subHead p-3">Operable Walls</p>
               <Row>
                 <Col className='p-3'>
                   <div className="serviceBg " style={{ backgroundImage: `url(products/Alma1.jpg)` }}>
