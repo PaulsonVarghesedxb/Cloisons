@@ -25,7 +25,6 @@ import CloisonP100 from './pages/glasspartition/cloisonp100';
 import Alma from './pages/operablewalls/alma';
 import Aqua from './pages/operablewalls/aqua';
 import Wave from './pages/operablewalls/wave';
-import Demo from './pages/operablewalls/demo';
 
 function App() {
   return (

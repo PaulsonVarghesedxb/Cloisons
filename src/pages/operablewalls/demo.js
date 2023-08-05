@@ -4,10 +4,8 @@ import 'react-horizontal-scrolling-menu/dist/styles.css';
 import { FiArrowLeft, FiArrowRight } from "react-icons/fi";
 
 function Demo({ itemsData }) {
-    console.log("here", itemsData);
-    const [items, setItems] = React.useState(itemsData);
+    const items = itemsData;
     const [selected, setSelected] = React.useState([]);
-    const [position, setPosition] = React.useState(0);
 
     const isItemSelected = (id) => !!selected.find((el) => el === id);
 
