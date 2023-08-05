@@ -91,10 +91,10 @@ function Wave() {
                                     <p className="txtHead">Creating space within space</p>
                                 </Bounce>
                                 <div className="justify-content-center align-items-center h-100 d-flex">
-                                    <div className="mx-3">
-                                        <img src={wavimg1} width={'100%'} height={'100%'} alt="loading.." />
-                                    </div>
-                                    <img src={wave1} width={'100%'} height={'100%'} alt="loading.." />
+
+                                    <img src={wavimg1} width={'100%'} height={'400px'} alt="loading.." />
+
+                                    <img src={wave1} width={'100%'} height={'400px'} alt="loading.." />
                                 </div>
 
 
