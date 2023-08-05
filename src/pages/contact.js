@@ -18,7 +18,7 @@ function Contact() {
                     <Col md="12" className="justify-content-md-center"  >
                         <Row className='m-5 p-5 '>
                             <Col md="12" className='px-3' >
-                                <p className="justify-content-center align-items-center d-flex text-center subHead">We love meeting new perople <br />and helping them.</p>
+                                <p className="justify-content-center align-items-center d-flex text-center subHead">We love meeting new people <br />and helping them.</p>
                             </Col>
                         </Row>
                         <Row className='mt-0 mb-5 p-0 justify-content-md-center'>
