@@ -453,3 +453,7 @@ body {
   background-color: #f0eded;
   margin-bottom: 10px;
 }
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}

@@ -121,46 +121,46 @@ const Indexpage = () => {
           <Col md="12 " className="justify-content-md-center mt-5 mb-5"  >
             <div>
               <p className="justify-content-center align-items-center d-flex text-center subHead">Our Products</p>
-              <p className="d-flex text-left subHead p-3">Glass Partitions</p>
+
               <Row>
                 <Col md="6" className='p-3'>
+                  <p className="d-flex text-left subHead p-3">Glass Partitions</p>
                   <div className="serviceBg " style={{ backgroundImage: `url(products/ID1.jpg)` }}>
                     <Link to="SingleGlazedID1"> <Bounce direction={"left"} triggerOnce={true}><div className="productDiv">ID 1</div></Bounce></Link>
                   </div>
                 </Col>
                 <Col md="6" className='p-3'>
+                  <p className="d-flex text-left subHead p-3">Operable Walls</p>
+                  <div className="serviceBg " style={{ backgroundImage: `url(products/Alma1.jpg)` }}>
+                    <Link to="Alma"><Bounce direction={"left"} triggerOnce={true}><div className="productDiv">ALMA</div></Bounce></Link>
+                  </div>
+
+                </Col>
+              </Row>
+              <Row>
+                <Col md="6" className='p-3'>
                   <div className="serviceBg " style={{ backgroundImage: `url(products/26.jpg)` }}>
                     <Link to="CloisonP26"><Bounce direction={"right"} triggerOnce={true}><div className="productDiv ">CLOISON 26</div></Bounce></Link>
                   </div>
                 </Col>
-              </Row>
-              <Row>
+                <Col md="6" className='p-3'>
+                  <div className="serviceBg " style={{ backgroundImage: `url(products/Aquaimg.jpg)` }}>
+                    <Link to="Aqua"><Bounce direction={"left"} triggerOnce={true}><div className="productDiv ">AQUA</div></Bounce></Link>
+                  </div>
+                </Col>
                 <Col md="6" className='p-3'>
                   <div className="serviceBg " style={{ backgroundImage: `url(products/40.jpg)` }}>
                     <Link to="CloisonP40"><Bounce direction={"left"} triggerOnce={true}><div className="productDiv">CLOISON 40</div></Bounce></Link>
                   </div>
                 </Col>
                 <Col md="6" className='p-3'>
-                  <div className="serviceBg " style={{ backgroundImage: `url(products/100.jpg)` }}>
-                    <Link to="CloisonP100"><Bounce direction={"right"} triggerOnce={true}><div className="productDiv ">CLOISON 100</div></Bounce></Link>
-                  </div>
-                </Col>
-              </Row>
-              <p className="d-flex text-left subHead p-3">Operable Walls</p>
-              <Row>
-                <Col className='p-3'>
-                  <div className="serviceBg " style={{ backgroundImage: `url(products/Alma1.jpg)` }}>
-                    <Link to="Alma"><Bounce direction={"left"} triggerOnce={true}><div className="productDiv">ALMA</div></Bounce></Link>
-                  </div>
-                </Col>
-                <Col className='p-3'>
-                  <div className="serviceBg " style={{ backgroundImage: `url(products/Aquaimg.jpg)` }}>
-                    <Link to="Aqua"><Bounce direction={"left"} triggerOnce={true}><div className="productDiv ">AQUA</div></Bounce></Link>
-                  </div>
-                </Col>
-                <Col className='p-3'>
                   <div className="serviceBg " style={{ backgroundImage: `url(products/waveimg.jpg)` }}>
                     <Link to="Wave"><Bounce direction={"right"} triggerOnce={true}><div className="productDiv ">WAVE</div></Bounce></Link>
+                  </div>
+                </Col>
+                <Col md="6" className='p-3'>
+                  <div className="serviceBg " style={{ backgroundImage: `url(products/100.jpg)` }}>
+                    <Link to="CloisonP100"><Bounce direction={"right"} triggerOnce={true}><div className="productDiv ">CLOISON 100</div></Bounce></Link>
                   </div>
                 </Col>
               </Row>
@@ -174,17 +174,19 @@ const Indexpage = () => {
               <Row>
                 <Col className="justify-content-center align-items-center d-flex text-center">
                   <div className='borderIco justify-content-center align-items-center d-flex text-center'>
-                    <GoMail size={60} className="connectIco" />
+                    <a href="mailto:info@himalayacool.com" target="_blank" rel="noreferrer"><GoMail size={60} className="connectIco" /></a>
                   </div>
                 </Col>
                 <Col className="justify-content-center align-items-center d-flex text-center">
                   <div className='borderIco justify-content-center align-items-center d-flex text-center'>
-                    <BsTelephone size={60} className="connectIco" />
+                    <a href="tel:+97142204141" target="_blank" rel="noreferrer"> <BsTelephone size={60} className="connectIco" /></a>
                   </div>
                 </Col >
                 <Col className="justify-content-center align-items-center d-flex text-center">
                   <div className='borderIco justify-content-center align-items-center d-flex text-center'>
-                    <IoLogoWhatsapp size={60} className="connectIco" />
+                    <a href='https://wa.me/+971506562400' target="_blank" rel="noreferrer">
+                      <IoLogoWhatsapp size={60} className="connectIco" />
+                    </a>
                   </div>
                 </Col>
               </Row>

@@ -37,9 +37,9 @@ const Footer = () => {
                     <Col md="3" className='px-3' >
                         <ul className='Footetli'>
                             <li className='lihead'>Contact</li>
-                            <li className='lilist'>302M, 3rdFloor.
-                                FAST Business Centre Building
-                                Dubai, United Arab Emirates</li>
+                            <li className='lilist'>302M, 3rdFloor</li>
+                            <li className='lilist'>Sheikha Mhara Building</li>
+                            <li className='lilist'>Dubai, United Arab Emirates</li>
                             <li className='lilist'>Ph:+97142204141</li>
                             <li className='lilist'>Email:contact@thecloisons.com</li>
 
