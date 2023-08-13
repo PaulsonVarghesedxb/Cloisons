@@ -9,15 +9,20 @@ function About() {
         <Row>
           <Col md="12" className="justify-content-md-center"  >
             <Row className='m-5 p-5 '>
-              <Col md="6" className='px-3' >
+              <Col md="4" className='p-0 pl-2' >
+                <Slide direction={"right"} triggerOnce={true}>
+                  <div className="about3Img"></div>
+                </Slide>
+              </Col>
+              <Col md="4" className='px-3' >
                 <p className="subHead">What we do</p>
                 <p className="para">
                   A leading manufacturing company dedicated to delivering innovative solutions to our clients. We believe that success comes from combining technical expertise with a deep understanding of our clients' needs. We are constantly learning and evolving ,staying up-to-date with the latest trends and technologies in our field to ensure that we are always offering the best possible solutions.
                 </p></Col>
 
-              <Col md="6" className='p-0 pl-2' >
+              <Col md="4" className='p-0 pl-2' >
                 <Slide direction={"right"} triggerOnce={true}>
-                  <div className="about3Img"></div>
+                  <div className="aboutalmaImg"></div>
                 </Slide>
               </Col>
 
