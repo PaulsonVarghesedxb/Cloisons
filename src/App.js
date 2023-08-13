@@ -25,6 +25,7 @@ import CloisonP100 from './pages/glasspartition/cloisonp100';
 import Alma from './pages/operablewalls/alma';
 import Aqua from './pages/operablewalls/aqua';
 import Wave from './pages/operablewalls/wave';
+import Project from './pages/project';
 
 function App() {
   return (
@@ -49,6 +50,7 @@ function App() {
           <Route path="Alma" element={<Alma />} />
           <Route path="Aqua" element={<Aqua />} />
           <Route path="Wave" element={<Wave />} />
+          <Route path="Projects" element={<Project />} />
         </Route>
       </Routes>
     </>

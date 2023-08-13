@@ -121,7 +121,7 @@ export const Navbarhead = () => {
                         </DropdownMenu>
                     </Dropdown>
                     <NavItem>
-                        <NavLink href="Gallery">
+                        <NavLink href="Projects">
                             Projects
                         </NavLink>
                     </NavItem>
