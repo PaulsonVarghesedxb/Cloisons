@@ -31,7 +31,7 @@ function App() {
   return (
     <>
       <div className='whatsicon'> <span className='d-flex flex-column' style={{ gap: 10 }}><a href="tel:+97142204141" target="_blank" rel="noreferrer"><FaPhoneAlt size={50} color="rgb(39, 179, 242)" /></a>
-        <a href="mailto:info@himalayacool.com" target="_blank" rel="noreferrer"><MdMessage size={50} color="#bc4d8e" /></a>
+        <a href="mailto:contact@thecloisons.com" target="_blank" rel="noreferrer"><MdMessage size={50} color="#bc4d8e" /></a>
         <a href='https://wa.me/+971506562400' target="_blank" rel="noreferrer"><IoLogoWhatsapp size={50} color="rgb(46, 206, 52)" /></a></span></div>
       <Routes>
         <Route path="/" element={<Home />} >
