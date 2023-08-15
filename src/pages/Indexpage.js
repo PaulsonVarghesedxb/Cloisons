@@ -174,7 +174,7 @@ const Indexpage = () => {
               <Row>
                 <Col className="justify-content-center align-items-center d-flex text-center">
                   <div className='borderIco justify-content-center align-items-center d-flex text-center'>
-                    <a href="mailto:info@himalayacool.com" target="_blank" rel="noreferrer"><GoMail size={60} className="connectIco" /></a>
+                    <a href="mailto:contact@thecloisons.com" target="_blank" rel="noreferrer"><GoMail size={60} className="connectIco" /></a>
                   </div>
                 </Col>
                 <Col className="justify-content-center align-items-center d-flex text-center">
