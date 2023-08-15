@@ -139,7 +139,7 @@ function Aqua() {
 
                             <Bounce direction={"right"} triggerOnce={true}>
                                 <div className="m-5">
-                                    <Button className="btdw p-2" onClick={() => { window.open("https://drive.google.com/file/d/1fdC-maWjFnfq4nUFP6Pv-VuisNJ-NQMx/view?usp=sharing", '_blank') }}>Download Catalouge</Button>
+                                    <Button className="btdw p-2" onClick={() => { window.open("https://drive.google.com/file/d/1i0pcCt1eCPuAzhpszKQtgEJH3rQsghPC/view?usp=drive_link", '_blank') }}>Download Catalouge</Button>
                                 </div>
                             </Bounce>
                         </Row>

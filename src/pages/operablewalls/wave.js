@@ -124,7 +124,7 @@ function Wave() {
 
                             <Bounce direction={"right"} triggerOnce={true}>
                                 <div className="m-5">
-                                    <Button className="btdw p-2" onClick={() => { window.open("https://drive.google.com/file/d/1xi-K8Ow8GsnrYxodGVJmyACsdncatWq_/view?usp=sharing", '_blank') }}>Download Catalouge</Button>
+                                    <Button className="btdw p-2" onClick={() => { window.open("https://drive.google.com/file/d/1ZXvtDY0MIZIH2A8TatetNRyfd_tCEW_n/view?usp=drive_link", '_blank') }}>Download Catalouge</Button>
                                 </div>
                             </Bounce>
                         </Row>
