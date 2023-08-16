@@ -43,7 +43,7 @@ function SingleGlazed() {
                                 </Bounce>
                                 <Bounce direction={"left"} triggerOnce={true}>
                                     <div className=" justify-content-center text-center">
-                                        <Button className="btdw p-2" onClick={() => { window.open("https://drive.google.com/file/d/1rOo_aFZQgwgsCkq19DF05itCNUyLsojM/view?usp=sharing", '_blank') }}>DOWNLOAD</Button>
+                                        <Button className="btdw p-2" onClick={() => { window.open("https://drive.google.com/file/d/1bvQoYofEoCLfukBKaKMhe_w-MP_luFj-/view?usp=drive_link", '_blank') }}>DOWNLOAD</Button>
                                     </div>
                                 </Bounce>
                             </Col>

@@ -125,7 +125,7 @@ function CloisonP100() {
                                 </Bounce>
                                 <Bounce direction={"right"} triggerOnce={true}>
                                     <div className="m-5">
-                                        <Button className="btdw p-2" onClick={() => { window.open("https://drive.google.com/file/d/1nT3CQWXwnPvBw5JAFdok36I_oaWjgJ_w/view?usp=sharing", '_blank') }}>Download</Button>
+                                        <Button className="btdw p-2" onClick={() => { window.open("https://drive.google.com/file/d/1UvlkObBHg9CJxvhrhseMX3DP4d9luHaz/view?usp=drive_link", '_blank') }}>Download</Button>
                                     </div>
                                 </Bounce>
                             </Col>
