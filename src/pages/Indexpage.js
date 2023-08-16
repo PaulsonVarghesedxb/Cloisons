@@ -1,9 +1,12 @@
 import React, { useState } from 'react'
 import { Carousel, CarouselControl, CarouselIndicators, CarouselItem, Col, Container, Row } from "reactstrap";
-import img1 from "../images/ctwentySix/1.jpg"
-import img2 from "../images/AquaMain.jpg"
-import img3 from "../images/waveImg.jpg"
-import img4 from "../images/chundered/2.jpg"
+import img1 from "../images/homepage/1.jpg"
+import img2 from "../images/homepage/2.jpg"
+import img3 from "../images/AquaMain.jpg"
+import img4 from "../images/homepage/4.jpg"
+import img5 from "../images/waveImg.jpg"
+import img6 from "../images/homepage/6.jpg"
+import img7 from "../images/homepage/5.jpg"
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Bounce } from 'react-awesome-reveal';
@@ -34,8 +37,25 @@ const Indexpage = () => {
     {
       altText: 'Slide 3',
       caption: 'Slide 3',
-      key: 3,
+      key: 4,
       src: img4
+    },
+    {
+      altText: 'Slide 3',
+      caption: 'Slide 3',
+      key: 5,
+      src: img5
+    },
+    {
+      altText: 'Slide 3',
+      caption: 'Slide 3',
+      key: 6,
+      src: img6
+    }, {
+      altText: 'Slide 3',
+      caption: 'Slide 3',
+      key: 7,
+      src: img7
     },
   ]
   useEffect(() => {
@@ -91,7 +111,7 @@ const Indexpage = () => {
             <style>
               {`.custom-tag {
               max-width: 100%;
-              height: 450px;
+              height: 500px;
               background: black;
             }`}
             </style>
