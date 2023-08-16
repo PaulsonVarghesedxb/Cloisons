@@ -105,12 +105,14 @@ function Alma() {
                                     <p className="txtHead">Creating space within space</p>
                                 </Bounce>
                                 <div className="justify-content-center align-items-center h-100 d-flex">
-                                    <div className="mx-3">
+                                    <div className="mx-3 ">
                                         <video width="500" controls >
                                             <source src="products/ALMA10m.mp4" type="video/mp4" />
                                         </video>
                                     </div>
-                                    <img src={amaMain} width={'100%'} height={'100%'} alt="loading.." />
+                                    <div className="viddiv">
+                                        <img src={amaMain} width={'100%'} height={'100%'} alt="loading.." />
+                                    </div>
                                 </div>
 
 

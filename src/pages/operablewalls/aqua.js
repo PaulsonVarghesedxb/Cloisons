@@ -104,7 +104,8 @@ function Aqua() {
                                             <source src="products/semiauto.mp4" type="video/mp4" />
                                         </video>
                                     </div>
-                                    <img src={aquam} width={'100%'} height={'100%'} alt="loading.." />
+                                    <div className="viddiv">
+                                        <img src={aquam} width={'100%'} height={'100%'} alt="loading.." /></div>
                                 </div>
 
 

@@ -463,3 +463,17 @@ body {
   display: flex;
   justify-content: space-between;
 }
+@media only screen and (max-width: 600px) {
+  .Footetli {
+    display: none;
+  }
+  .headerAbout {
+    width: 100%;
+  }
+  .headerGlass {
+    width: 100%;
+  }
+  .viddiv {
+    display: none;
+  }
+}

@@ -93,8 +93,9 @@ function Wave() {
                                 <div className="justify-content-center align-items-center h-100 d-flex">
 
                                     <img src={wavimg1} width={'100%'} height={'400px'} alt="loading.." />
-
-                                    <img src={wave1} width={'100%'} height={'400px'} alt="loading.." />
+                                    <div className="viddiv">
+                                        <img src={wave1} width={'100%'} height={'400px'} alt="loading.." />
+                                    </div>
                                 </div>
 
 

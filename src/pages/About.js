@@ -8,7 +8,7 @@ function About() {
       <Container>
         <Row>
           <Col md="12" className="justify-content-md-center"  >
-            <Row className='m-5 p-5 '>
+            <Row className='mt-5 pt-5 '>
               <Col md="4" className='p-0 pl-2' >
                 <Slide direction={"right"} triggerOnce={true}>
                   <div className="about3Img"></div>
@@ -27,7 +27,7 @@ function About() {
               </Col>
 
             </Row>
-            <Row className='m-5 p-5 '>
+            <Row className='mt-5 pt-5 '>
 
               <Col md="6" className='p-0 ' >
                 <Slide triggerOnce={true}>
@@ -40,7 +40,7 @@ function About() {
                   Our esteemed partner , French manufactures ABCD International has been designing and marketing demountable office partitions since 1980. It has been able to establish itself as the leading manufacturer range designer. From design to manufacturing and marketing ,we offer over 15 ranges of high-quality removable partitions options. Our product line includes items like Joint partitions, Edge to edge partitions, Autonomous boxes, etc In order to reduce the emission of pollutants into the ambient air, ABCD has selected low- emission materials [ A+ or A labeled] for its partition walls. Its easy implementation, modularity and attractive price contribute towards an optimal office environment.
                 </p></Col>
             </Row>
-            <Row className='m-5 p-5 '>
+            <Row className='mt-5 pt-5 '>
 
 
               <Col md="6" className='px-3' >
@@ -54,7 +54,7 @@ function About() {
                 </Slide>
               </Col>
             </Row>
-            <Row className='m-5 p-5 '>
+            <Row className='mt-5 pt-5 '>
 
               <Col md="6" className='p-0' >
                 <Slide triggerOnce={true} >
