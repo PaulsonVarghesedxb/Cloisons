@@ -199,12 +199,12 @@ const Indexpage = () => {
                 </Col>
                 <Col className="justify-content-center align-items-center d-flex text-center">
                   <div className='borderIco justify-content-center align-items-center d-flex text-center'>
-                    <a href="tel:+97142204141" target="_blank" rel="noreferrer"> <BsTelephone size={60} className="connectIco" /></a>
+                    <a href="tel:+971564388633" target="_blank" rel="noreferrer"> <BsTelephone size={60} className="connectIco" /></a>
                   </div>
                 </Col >
                 <Col className="justify-content-center align-items-center d-flex text-center">
                   <div className='borderIco justify-content-center align-items-center d-flex text-center'>
-                    <a href='https://wa.me/+971506562400' target="_blank" rel="noreferrer">
+                    <a href='https://wa.me/+971564388633' target="_blank" rel="noreferrer">
                       <IoLogoWhatsapp size={60} className="connectIco" />
                     </a>
                   </div>

@@ -22,11 +22,11 @@ function Home() {
           <ul className='Footetli px-5 py-3'><li className='lihead'>
             Email: contact@thecloisons.com</li>
             <li className='lihead'>
-              Tel: +971 4220 4141
+              Tel: +971 5643 88933
             </li>
-            <li className='lihead'>
+            {/* <li className='lihead'>
               Tel: 00971 506 562 400
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

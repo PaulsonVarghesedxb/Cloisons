@@ -40,7 +40,7 @@ const Footer = () => {
                             <li className='lilist'>302M, 3rdFloor</li>
                             <li className='lilist'>Sheikha Mhara Building</li>
                             <li className='lilist'>Dubai, United Arab Emirates</li>
-                            <li className='lilist'>Ph:+97142204141</li>
+                            <li className='lilist'>Ph:+971564388633</li>
                             <li className='lilist'>Email:contact@thecloisons.com</li>
 
                         </ul>

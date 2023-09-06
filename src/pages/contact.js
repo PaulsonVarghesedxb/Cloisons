@@ -96,7 +96,7 @@ function Contact() {
                                 <div className="contactInfodiv">
 
                                     <div className="iconbg"><GoMail size={20} color="#4d4b4b94" /></div><div className="justify-content-center align-items-center d-flex p-3">contact@thecloisons.com</div>
-                                    <div className="iconbg"><BsTelephone size={20} color="#4d4b4b94" /></div><div className="justify-content-center align-items-center d-flex p-3">+971 42204141, 00971506562400</div>
+                                    <div className="iconbg"><BsTelephone size={20} color="#4d4b4b94" /></div><div className="justify-content-center align-items-center d-flex p-3">+971 564388633</div>
                                     <div className="iconbg"><FiLink size={20} color="#4d4b4b94" /></div><div className="justify-content-center align-items-center d-flex p-3">www.thecloisons.com</div>
 
                                 </div>
